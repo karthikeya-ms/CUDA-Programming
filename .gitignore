@@ -1,0 +1,24 @@
+# CMake build dir
+build/
+
+# CMake junk if you accidentally build in-source
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Compiled artifacts
+*.o
+*.a
+*.so
+*.exe
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Profiling artifacts
+profiles/
+*.nsys-rep
+*.sqlite
+*_export
